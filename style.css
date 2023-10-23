@@ -1,0 +1,135 @@
+
+@charset "UTF-8";
+/* Reset de margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do corpo do site */
+/* Estilo do corpo do site com gradiente de fundo */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #363636, #c9c9c9); /* Gradiente de cor de fundo suave */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+/* Estilo do menu de navegação */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo das opções do menu de navegação */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 10px;
+    transition: 0.3s, color 0.3s; /* Adiciona transição suave ao background e à cor */
+    border-radius: 8px; /* Arredonda as opções do menu */
+}
+
+/* Animação de background */
+nav a:hover {
+    background: #afadad; /* Altera a cor de fundo para laranja escuro (#FFA500) ao passar o mouse */
+    color: #fff; /* Altera a cor do texto para branco */
+}
+
+
+/* Estilo das seções de conteúdo */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilo da imagem da seção "Sobre Mim" */
+.minha-foto img {
+    width: 300px;
+    border-radius: 10px;
+    display: block; /* Para centralizar a imagem horizontalmente */
+    margin: 0 auto;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para as caixas de entrada de texto */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Adiciona uma transição suave na borda */
+}
+
+/* Estilos para tornar as caixas de entrada mais bonitas */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    background-color: #f9f9f9; /* Cor de fundo mais clara */
+    border: 2px solid #979797; /* Borda mais destacada */
+    padding: 2px;
+    border-radius: 5px; /* Borda mais arredondada */
+    font-size: 16px; /* Tamanho da fonte padrão */
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #979797(180 27% 72%); /* Cor da borda ao focar */
+}
+
+/* Estilos para o botão de enviar */
+form button {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3a3a3a; /* Cor de fundo do tema */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo */
+}
+
+form button:hover {
+    background-color: #afadad; /* Cor de fundo mais escura ao passar o mouse */
+}
+
